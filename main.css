@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    flex: 0.2;
+    background-color: rgba(7, 7, 7, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .main {
+    flex: 0.8;
+    display: flex;
+  }
+  
+  .image_container {
+    flex: 0.4;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    background-image: url("C:/Users/ADMIN/Desktop/Cognizant_Documents/Megha_Image.png");
+    background-position: center;
+    
+    clip-path: circle;
+
+  }
+  
+  .main_container {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar_heading {
+    text-align: center;
+    color: rgb(182, 211, 223);
+    flex: 0.2;
+  }
+  
+  .sidebar_heading > h4 {
+    font-size: 25px;
+  }
+  
+  .sidebar_links {
+    text-align: center;
+    flex: 0.6;
+  }
+  
+  .sidebar_links > h3 {
+    padding: 23px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .qualification_container {
+    display: none;
+  }
